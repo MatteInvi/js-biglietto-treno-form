@@ -4,7 +4,8 @@ const etaUtente = document.getElementById("eta");
 const submitButton = document.getElementById("submit");
 const userForm = document.getElementById("ticketForm");
 const schedaRisultati = document.getElementById("scheda-risultati")
-// Elemnti di output
+
+// Elementi di output
 const prezzoInteroOut = document.getElementById("prezzo-intero");
 const scontoOut = document.getElementById("sconto");
 const prezzoFinaleOut = document.getElementById("prezzo-finale");
