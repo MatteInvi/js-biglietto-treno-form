@@ -9,7 +9,7 @@ const schedaRisultati = document.getElementById("scheda-risultati")
 const prezzoInteroOut = document.getElementById("prezzo-intero");
 const scontoOut = document.getElementById("sconto");
 const prezzoFinaleOut = document.getElementById("prezzo-finale");
-
+const prezzoUnitarioOut = document.getElementById("prezzo-unitario");
 // Esecuzione funzione
 userForm.addEventListener("submit", calcoloPrezzo);
 
@@ -37,6 +37,6 @@ function calcoloPrezzo(event) {
     prezzoInteroOut.innerText = prezzoIntero.toFixed(2) + "€";
     scontoOut.innerText = sconto.toFixed(2) + "€";
     prezzoFinaleOut.innerText = prezzoFinale.toFixed(2) + "€";
-
+    prezzoUnitarioOut.innerText = prezzoUnitario + "€";
 
 }
